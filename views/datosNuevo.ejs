@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Datos Nuevos</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Datos Nuevos</h1>
+    <div class="data-container">
+      <h2>datosNuevo</h2>
+      <p>Los datos capturados son:</p>
+      <p>Alumno: <%= alumno.nombre %></p>
+      <p>Grupo: <%= alumno.grupo %></p>
+      <p>Cuatrimestre: <%= alumno.cuatrimestre %></p>
+      <p>Para terminar la carrera te faltan: <%= 8 - alumno.cuatrimestre %> cuatrimestres</p>
+    </div>
+  </div>
+</body>
+</html>
